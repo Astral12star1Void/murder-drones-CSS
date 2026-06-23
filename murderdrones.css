@@ -2,8 +2,8 @@
 
 
 body {
-background: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') center top fixed !important;
-background-size: 100% auto !important;
+background: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') center center fixed !important;
+background-size: cover !important;
 background-repeat: no-repeat !important;
 background-color: #000000 !important;
 color: #FFE8D1 !important;
@@ -11,23 +11,17 @@ font-family: 'Orbitron', sans-serif !important;
 }
 
 
-/* top bar */
-.topbar {
-background: rgba(10,5,2,0.75) !important;
-color: #FFE8D1 !important;
-}
-
-
-/* navigation */
+/* top bars */
+.topbar,
 .navbar {
-background: rgba(20,10,5,0.75) !important;
+background: rgba(0,0,0,0.65) !important;
 color: #FFE8D1 !important;
 }
 
 
 /* title */
 h1 {
-color: #FFB36B !important;
+color: #C96A24 !important;
 font-size: 64px;
 text-align: center !important;
 }
@@ -36,15 +30,15 @@ text-align: center !important;
 /* links */
 a:link,
 a:visited {
-color: #FF9A3D !important;
+color: #B85A1B !important;
 }
 
 a:hover {
-color: #FFD0A3 !important;
+color: #D9823B !important;
 }
 
 
-/* main area */
+/* main */
 .container.main {
 background: rgba(0,0,0,0.35) !important;
 border: none !important;
@@ -52,9 +46,14 @@ box-shadow: none !important;
 }
 
 
-/* panels */
-.panel {
-background: rgba(0,0,0,0.65) !important;
+/* boxes */
+.panel,
+.box,
+.boxcontainer,
+.largebox,
+.mediumbox,
+.smallbox {
+background: rgba(0,0,0,0.60) !important;
 color: #FFE8D1 !important;
 border: 1px solid #7A3E18 !important;
 }
@@ -62,7 +61,7 @@ border: 1px solid #7A3E18 !important;
 
 /* breadcrumb */
 .breadcrumb {
-background: rgba(0,0,0,0.65) !important;
+background: rgba(0,0,0,0.60) !important;
 color: #FFE8D1 !important;
 }
 
@@ -71,14 +70,14 @@ color: #FFE8D1 !important;
 .table .left,
 .inner-table .left,
 .inner-table .right {
-background: rgba(15,7,3,0.75) !important;
+background: rgba(15,7,3,0.70) !important;
 color: #FFE8D1 !important;
 }
 
 
 /* progress */
 .progress-bar {
-background: #FF8C32 !important;
+background: #C96A24 !important;
 }
 
 .progress {
@@ -86,7 +85,7 @@ background: rgba(60,25,5,0.8) !important;
 }
 
 
-/* buttons + inputs */
+/* buttons */
 input,
 textarea,
 select,
@@ -97,20 +96,12 @@ border: 1px solid #7A3E18 !important;
 }
 
 
-/* Lioden theme selector area */
-#header,
-#inner,
-.theme {
-background: rgba(0,0,0,0.55) !important;
-}
-
-
-/* extra transparent black boxes */
-.box,
-.boxcontainer,
-.largebox,
-.mediumbox,
-.smallbox {
+/* theme buttons */
+.themebutton,
+#themebutton,
+.theme,
+#theme,
+select.form-control {
 background: rgba(0,0,0,0.55) !important;
 color: #FFE8D1 !important;
 }
