@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 body {
-background: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') center center fixed;
+background-image: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') !important;
+background-position: center center;
+background-attachment: fixed;
 background-size: cover;
 color: #D6E4FF;
 font-family: 'Orbitron';
 }
-
 .topbar {
 background: #0A0F18 !important;
 color: #D6E4FF !important;
