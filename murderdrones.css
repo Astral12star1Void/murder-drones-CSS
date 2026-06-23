@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
+
 body {
-background: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') center center fixed !important;
-background-size: contain !important;
+background: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') center top fixed !important;
+background-size: 100% auto !important;
 background-repeat: no-repeat !important;
 background-color: #000000 !important;
 color: #FFE8D1 !important;
@@ -43,7 +44,7 @@ color: #FFD0A3 !important;
 }
 
 
-/* removes main background */
+/* main area */
 .container.main {
 background: rgba(0,0,0,0.35) !important;
 border: none !important;
@@ -51,7 +52,7 @@ box-shadow: none !important;
 }
 
 
-/* boxes/panels */
+/* panels */
 .panel {
 background: rgba(0,0,0,0.65) !important;
 color: #FFE8D1 !important;
@@ -75,7 +76,7 @@ color: #FFE8D1 !important;
 }
 
 
-/* progress bars */
+/* progress */
 .progress-bar {
 background: #FF8C32 !important;
 }
@@ -85,7 +86,7 @@ background: rgba(60,25,5,0.8) !important;
 }
 
 
-/* buttons + boxes you type in */
+/* buttons + inputs */
 input,
 textarea,
 select,
@@ -96,7 +97,20 @@ border: 1px solid #7A3E18 !important;
 }
 
 
-/* theme buttons area */
-#main {
-background: rgba(0,0,0,0.45) !important;
+/* Lioden theme selector area */
+#header,
+#inner,
+.theme {
+background: rgba(0,0,0,0.55) !important;
+}
+
+
+/* extra transparent black boxes */
+.box,
+.boxcontainer,
+.largebox,
+.mediumbox,
+.smallbox {
+background: rgba(0,0,0,0.55) !important;
+color: #FFE8D1 !important;
 }
