@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+background: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') center center fixed;
+background-size: cover;
+color: #D6E4FF;
+font-family: 'Orbitron';
+}
+
+.topbar {
+background: #0A0F18 !important;
+color: #D6E4FF !important;
+}
+
+.navbar {
+background: #121B2A !important;
+color: #D6E4FF !important;
+}
+
+h1 {
+color: #D6E4FF !important;
+font-size: 64px;
+text-align: center !important;
+}
+
+a:link,
+a:visited {
+color: #7FB3FF !important;
+}
+
+a:hover {
+color: #B8E6FF !important;
+}
+
+.container.main {
+background: rgba(55, 58, 39, 0.0);
+border: none;
+box-shadow: none;
+}
+
+.panel {
+background: #182332 !important;
+color: #D6E4FF !important;
+border: none !important;
+}
+
+.breadcrumb {
+background: #121B2A !important;
+color: #D6E4FF !important;
+}
+
+.table .left,
+.inner-table .left,
+.inner-table .right {
+background: #182332 !important;
+color: #D6E4FF !important;
+}
+
+.progress-bar {
+background: #4C8DFF !important;
+}
+
+.progress {
+background: #202C3D !important;
+}
+
+input,
+textarea,
+select,
+button.button {
+background: #202C3D !important;
+color: #D6E4FF !important;
+border: none !important;
+}
