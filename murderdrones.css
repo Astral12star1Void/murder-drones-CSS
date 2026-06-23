@@ -1,75 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 body {
-background-image: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') !important;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
-color: #D6E4FF;
-font-family: 'Orbitron';
+background: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') center center fixed !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+background-color: #120805 !important;
+color: #FFE8D1 !important;
+font-family: 'Orbitron', sans-serif !important;
 }
+
 .topbar {
-background: #0A0F18 !important;
-color: #D6E4FF !important;
+background: #1A0C05 !important;
+color: #FFE8D1 !important;
 }
 
 .navbar {
-background: #121B2A !important;
-color: #D6E4FF !important;
+background: #2A1408 !important;
+color: #FFE8D1 !important;
 }
 
 h1 {
-color: #D6E4FF !important;
+color: #FFB36B !important;
 font-size: 64px;
 text-align: center !important;
 }
 
 a:link,
 a:visited {
-color: #7FB3FF !important;
+color: #FF9A3D !important;
 }
 
 a:hover {
-color: #B8E6FF !important;
+color: #FFD0A3 !important;
 }
 
 .container.main {
-background: rgba(55, 58, 39, 0.0);
-border: none;
-box-shadow: none;
+background: rgba(0,0,0,0) !important;
+border: none !important;
+box-shadow: none !important;
 }
 
 .panel {
-background: #182332 !important;
-color: #D6E4FF !important;
-border: none !important;
+background: rgba(26,12,5,0.88) !important;
+color: #FFE8D1 !important;
+border: 1px solid #7A3E18 !important;
 }
 
 .breadcrumb {
-background: #121B2A !important;
-color: #D6E4FF !important;
+background: #2A1408 !important;
+color: #FFE8D1 !important;
 }
 
 .table .left,
 .inner-table .left,
 .inner-table .right {
-background: #182332 !important;
-color: #D6E4FF !important;
+background: #1A0C05 !important;
+color: #FFE8D1 !important;
 }
 
 .progress-bar {
-background: #4C8DFF !important;
+background: #FF8C32 !important;
 }
 
 .progress {
-background: #202C3D !important;
+background: #3A1C0B !important;
 }
 
 input,
 textarea,
 select,
 button.button {
-background: #202C3D !important;
-color: #D6E4FF !important;
-border: none !important;
+background: #1A0C05 !important;
+color: #FFE8D1 !important;
+border: 1px solid #7A3E18 !important;
 }
