@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
-
 body {
-background: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') center top fixed !important;
-background-size: auto 100% !important;
+background-image: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') !important;
+background-position: top center !important;
+background-size: 100% auto !important;
 background-repeat: no-repeat !important;
+background-attachment: fixed !important;
 background-color: #000000 !important;
 color: #C98245 !important;
 font-family: 'Orbitron', sans-serif !important;
 }
-
-
 /* Lioden main backgrounds */
 body,
 #main,
@@ -19,7 +18,6 @@ body,
 .container.main {
 background-color: rgba(0,0,0,0.35) !important;
 }
-
 
 /* top bars */
 .topbar,
@@ -82,4 +80,13 @@ background: #C96A24 !important;
 
 .progress {
 background: rgba(60,25,5,0.7) !important;
+}
+/* ONLY make theme chooser transparent */
+#customize,
+#customize *,
+#theme-selection,
+#theme-selection *,
+.theme-picker,
+.theme-picker * {
+background: rgba(0,0,0,0.55) !important;
 }
