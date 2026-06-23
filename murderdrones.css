@@ -2,29 +2,37 @@
 
 body {
 background: url('https://i.postimg.cc/dVSJcqg4/IMG-8629.png') center center fixed !important;
-background-size: cover !important;
+background-size: contain !important;
 background-repeat: no-repeat !important;
-background-color: #120805 !important;
+background-color: #000000 !important;
 color: #FFE8D1 !important;
 font-family: 'Orbitron', sans-serif !important;
 }
 
+
+/* top bar */
 .topbar {
-background: #1A0C05 !important;
+background: rgba(10,5,2,0.75) !important;
 color: #FFE8D1 !important;
 }
 
+
+/* navigation */
 .navbar {
-background: #2A1408 !important;
+background: rgba(20,10,5,0.75) !important;
 color: #FFE8D1 !important;
 }
 
+
+/* title */
 h1 {
 color: #FFB36B !important;
 font-size: 64px;
 text-align: center !important;
 }
 
+
+/* links */
 a:link,
 a:visited {
 color: #FF9A3D !important;
@@ -34,43 +42,61 @@ a:hover {
 color: #FFD0A3 !important;
 }
 
+
+/* removes main background */
 .container.main {
-background: rgba(0,0,0,0) !important;
+background: rgba(0,0,0,0.35) !important;
 border: none !important;
 box-shadow: none !important;
 }
 
+
+/* boxes/panels */
 .panel {
-background: rgba(26,12,5,0.88) !important;
+background: rgba(0,0,0,0.65) !important;
 color: #FFE8D1 !important;
 border: 1px solid #7A3E18 !important;
 }
 
+
+/* breadcrumb */
 .breadcrumb {
-background: #2A1408 !important;
+background: rgba(0,0,0,0.65) !important;
 color: #FFE8D1 !important;
 }
 
+
+/* tables */
 .table .left,
 .inner-table .left,
 .inner-table .right {
-background: #1A0C05 !important;
+background: rgba(15,7,3,0.75) !important;
 color: #FFE8D1 !important;
 }
 
+
+/* progress bars */
 .progress-bar {
 background: #FF8C32 !important;
 }
 
 .progress {
-background: #3A1C0B !important;
+background: rgba(60,25,5,0.8) !important;
 }
 
+
+/* buttons + boxes you type in */
 input,
 textarea,
 select,
 button.button {
-background: #1A0C05 !important;
+background: rgba(0,0,0,0.65) !important;
 color: #FFE8D1 !important;
 border: 1px solid #7A3E18 !important;
+}
+
+
+/* theme buttons area */
+#main {
+background: rgba(0,0,0,0.45) !important;
 }
