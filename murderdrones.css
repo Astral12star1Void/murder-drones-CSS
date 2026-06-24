@@ -1,46 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
-body {
-background-image: url('https://i.postimg.cc/QxNLNFG7/IMG-8632.jpg') !important;
-background-position: top center !important;
-background-size: cover !important;
-background-repeat: no-repeat !important;
-background-attachment: fixed !important;
-background-color: #000000 !important;
-
-color: #C98245 !important;
-font-family: 'Orbitron', sans-serif !important;
-}
-
-
-/* top bars */
+/* DESTROY LIODEN THEME BACKGROUNDS */
+html,
+body,
+#wrapper,
+#container,
+.container,
+.container.main,
+.panel,
+.table,
+.inner-table,
+.breadcrumb,
 .topbar,
 .navbar {
-background: #120A06 !important;
-color: #C98245 !important;
+    background-image: none !important;
 }
 
+/* MAIN BACKGROUND */
+body {
+    background-image: url('https://i.postimg.cc/QxNLNFG7/IMG-8632.jpg') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-color: #000000 !important;
 
-/* title */
-h1 {
-color: #C96A24 !important;
-font-size: 64px;
-text-align: center !important;
+    color: #C98245 !important;
+    font-family: 'Orbitron', sans-serif !important;
 }
 
+/* TOP BARS */
+.topbar,
+.navbar {
+    background: #120A06 !important;
+    color: #C98245 !important;
+}
 
-/* links */
+/* TITLES */
+h1,
+h2,
+h3 {
+    color: #C96A24 !important;
+}
+
+/* LINKS */
 a:link,
 a:visited {
-color: #B85A1B !important;
+    color: #B85A1B !important;
 }
 
 a:hover {
-color: #D9823B !important;
+    color: #D9823B !important;
 }
 
-
-/* main boxes */
+/* MAIN PANELS */
 .container.main,
 .panel,
 .table,
@@ -50,54 +63,41 @@ color: #D9823B !important;
 .largebox,
 .mediumbox,
 .smallbox {
-background: #0A0A0A !important;
-color: #C98245 !important;
-border: 1px solid #7A3E18 !important;
+    background: #0A0A0A !important;
+    color: #C98245 !important;
+    border: 1px solid #7A3E18 !important;
 }
 
-
-/* breadcrumb */
+/* BREADCRUMB */
 .breadcrumb {
-background: #0A0A0A !important;
-color: #C98245 !important;
+    background: #0A0A0A !important;
+    color: #C98245 !important;
 }
 
-
-/* table cells */
+/* TABLE CELLS */
 .table .left,
 .inner-table .left,
 .inner-table .right {
-background: #0F0F0F !important;
-color: #C98245 !important;
+    background: #111111 !important;
+    color: #C98245 !important;
 }
 
-
-/* progress bars */
-.progress-bar {
-background: #C96A24 !important;
-}
-
-.progress {
-background: #3A1C0B !important;
-}
-
-
-/* buttons and text boxes */
+/* BUTTONS + INPUTS */
 input,
 textarea,
 select,
+button,
 button.button {
-background: #0A0A0A !important;
-color: #C98245 !important;
-border: 1px solid #7A3E18 !important;
+    background: #0A0A0A !important;
+    color: #C98245 !important;
+    border: 1px solid #7A3E18 !important;
 }
 
+/* PROGRESS BARS */
+.progress-bar {
+    background: #C96A24 !important;
+}
 
-/* theme selector attempts */
-.theme,
-#theme,
-.themebutton,
-#themebutton {
-background: #0A0A0A !important;
-color: #C98245 !important;
+.progress {
+    background: #3A1C0B !important;
 }
