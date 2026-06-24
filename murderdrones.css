@@ -87,3 +87,20 @@ button {
     color: #C98245 !important;
     border: 1px solid #7A3E18 !important;
 }
+/* Make Lioden theme panels transparent */
+.panel,
+.table,
+.inner-table,
+.breadcrumb,
+.container.main {
+    background: rgba(0, 0, 0, 0.45) !important;
+    background-image: none !important;
+}
+
+/* Theme-colored table cells */
+.table .left,
+.table .right,
+.inner-table .left,
+.inner-table .right {
+    background: rgba(0, 0, 0, 0.35) !important;
+}
