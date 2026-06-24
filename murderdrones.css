@@ -11,19 +11,12 @@ background-color: #000000 !important;
 color: #C98245 !important;
 font-family: 'Orbitron', sans-serif !important;
 }
-/* Lioden main backgrounds */
-body,
-#main,
-#content,
-.container,
-.container.main {
-background-color: rgba(0,0,0,0.35) !important;
-}
+
 
 /* top bars */
 .topbar,
 .navbar {
-background: rgba(0,0,0,0.55) !important;
+background: #120A06 !important;
 color: #C98245 !important;
 }
 
@@ -31,21 +24,8 @@ color: #C98245 !important;
 /* title */
 h1 {
 color: #C96A24 !important;
-}
-
-
-/* panels */
-.panel,
-.table,
-.inner-table,
-.box,
-.boxcontainer,
-.largebox,
-.mediumbox,
-.smallbox {
-background: rgba(0,0,0,0.55) !important;
-color: #C98245 !important;
-border: 1px solid #7A3E18 !important;
+font-size: 64px;
+text-align: center !important;
 }
 
 
@@ -60,34 +40,64 @@ color: #D9823B !important;
 }
 
 
-/* buttons/theme selector */
-.themebutton,
-#themebutton,
-.theme,
-#theme,
-select,
-button,
-button.button {
-background: rgba(0,0,0,0.55) !important;
+/* main boxes */
+.container.main,
+.panel,
+.table,
+.inner-table,
+.box,
+.boxcontainer,
+.largebox,
+.mediumbox,
+.smallbox {
+background: #0A0A0A !important;
 color: #C98245 !important;
-border-color: #7A3E18 !important;
+border: 1px solid #7A3E18 !important;
 }
 
 
-/* progress */
+/* breadcrumb */
+.breadcrumb {
+background: #0A0A0A !important;
+color: #C98245 !important;
+}
+
+
+/* table cells */
+.table .left,
+.inner-table .left,
+.inner-table .right {
+background: #0F0F0F !important;
+color: #C98245 !important;
+}
+
+
+/* progress bars */
 .progress-bar {
 background: #C96A24 !important;
 }
 
 .progress {
-background: rgba(60,25,5,0.7) !important;
+background: #3A1C0B !important;
 }
-/* ONLY make theme chooser transparent */
-#customize,
-#customize *,
-#theme-selection,
-#theme-selection *,
-.theme-picker,
-.theme-picker * {
-background: rgba(0,0,0,0.55) !important;
+
+
+/* buttons and text boxes */
+input,
+textarea,
+select,
+button.button {
+background: #0A0A0A !important;
+color: #C98245 !important;
+border: 1px solid #7A3E18 !important;
+}
+
+
+/* theme selector attempts */
+.theme,
+#theme,
+.themebutton,
+#themebutton {
+background: #0A0A0A !important;
+color: #C98245 !important;
 }
