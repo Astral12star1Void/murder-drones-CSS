@@ -1,25 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
+
 /* DESTROY LIODEN THEME BACKGROUNDS */
 html,
 body,
 #wrapper,
 #container,
-.container,
-.container.main,
-.panel,
-.table,
-.inner-table,
-.breadcrumb,
-.topbar,
-.navbar {
+.container {
     background-image: none !important;
 }
+
 
 /* MAIN BACKGROUND */
 body {
     background-image: url('https://i.postimg.cc/QxNLNFG7/IMG-8632.jpg') !important;
-    background-position: center center !important;
+    background-position: top center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
@@ -29,19 +24,49 @@ body {
     font-family: 'Orbitron', sans-serif !important;
 }
 
-/* TOP BARS */
+
+/* TOP AREAS */
 .topbar,
 .navbar {
     background: #120A06 !important;
     color: #C98245 !important;
 }
 
-/* TITLES */
-h1,
-h2,
-h3 {
+
+/* TITLE */
+h1 {
     color: #C96A24 !important;
+    text-align: center !important;
 }
+
+
+/* CAT2 BIG BOX */
+.altbox {
+    background: #0A0A0A !important;
+    color: #C98245 !important;
+
+    border: 2px solid #7A3E18 !important;
+    border-radius: 12px !important;
+
+    padding: 35px !important;
+    margin: 20px auto !important;
+
+    width: 90% !important;
+    min-height: 250px !important;
+
+    box-shadow: 0 0 15px #000000 !important;
+}
+
+
+/* REMOVE RANDOM THEME BACKGROUNDS */
+.panel,
+.table,
+.inner-table,
+.breadcrumb {
+    background-image: none !important;
+    background-color: #0A0A0A !important;
+}
+
 
 /* LINKS */
 a:link,
@@ -53,51 +78,13 @@ a:hover {
     color: #D9823B !important;
 }
 
-/* MAIN PANELS */
-.container.main,
-.panel,
-.table,
-.inner-table,
-.box,
-.boxcontainer,
-.largebox,
-.mediumbox,
-.smallbox {
-    background: #0A0A0A !important;
-    color: #C98245 !important;
-    border: 1px solid #7A3E18 !important;
-}
 
-/* BREADCRUMB */
-.breadcrumb {
-    background: #0A0A0A !important;
-    color: #C98245 !important;
-}
-
-/* TABLE CELLS */
-.table .left,
-.inner-table .left,
-.inner-table .right {
-    background: #111111 !important;
-    color: #C98245 !important;
-}
-
-/* BUTTONS + INPUTS */
+/* BUTTONS */
 input,
 textarea,
 select,
-button,
-button.button {
+button {
     background: #0A0A0A !important;
     color: #C98245 !important;
     border: 1px solid #7A3E18 !important;
-}
-
-/* PROGRESS BARS */
-.progress-bar {
-    background: #C96A24 !important;
-}
-
-.progress {
-    background: #3A1C0B !important;
 }
