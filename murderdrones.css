@@ -104,3 +104,6 @@ button {
 .inner-table .right {
     background: rgba(0, 0, 0, 0.35) !important;
 }
+.container.main {
+    background: rgba(255, 255, 255, 0.6) !important; /* White tint */
+}
